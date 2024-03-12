@@ -18,6 +18,12 @@
     </properties>
 
     <dependencies>
+        <!--resilience4j-bulkhead 信号量舱壁-->
+        <dependency>
+            <groupId>io.github.resilience4j</groupId>
+            <artifactId>resilience4j-bulkhead</artifactId>
+        </dependency>
+
         <!--resilience4j-circuitbreaker-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
