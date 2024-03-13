@@ -40,8 +40,7 @@ public class OrderController {
      * @return
      */
     @GetMapping(value = "/feign/pay/mylb")
-    public String mylb()
-    {
+    public String mylb() {
         return payFeignApi.mylb();
     }
 }
