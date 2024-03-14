@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @create 2023-11-20 16:48
  */
 @RestController
-public class OrderGateWayController {
+public class OrderGateWayController{
     @Resource
     private PayFeignApi payFeignApi;
 
